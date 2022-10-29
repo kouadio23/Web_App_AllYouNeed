@@ -1,0 +1,20 @@
+{% extends "allYouNeed/base.html" %}
+{% block content%}
+    <h2 style="text-decoration: underline; font-size: large; margin-top: 30px;">Best Places for vacation</h2>
+    <div>
+      <h4>Man's stunts</h4>
+      <p>Address: Man, Côte d’Ivoire<br>
+        Beautifut water fall in the mountain<br></p>
+        <button><a class="nav-item" href="{% url 'allYouNeed-home' %}">See Post</a></button>
+        <button><a class="nav-item" href="#">Write Post</a></button>
+    </div>
+    <div>
+      <h4>Civilization Musium</h4>
+      <p>Address: Abidjan, Côte d’Ivoire<br>
+        Traditional Mask of the country<br></p>
+        <button><a class="nav-item" href="{% url 'allYouNeed-home' %}">See Post</a></button>
+        <button><a class="nav-item" href="#">Write Post</a></button>
+    </div>
+
+
+{% endblock content%}

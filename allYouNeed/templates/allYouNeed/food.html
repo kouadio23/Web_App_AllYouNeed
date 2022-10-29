@@ -1,0 +1,22 @@
+{% extends "allYouNeed/base.html" %}
+{% block content%}
+    <h2 style="text-decoration: underline; font-size: large; margin-top: 30px;">Best Local Restaurant</h2>
+    <div>
+      <h4>Sakan Restaurant</h4>
+      <p>Address: Avenue Chardy, Abidjan, Côte d’Ivoire<br>
+        Service options: Dine-in · Takeout<br>
+        Phone: +225 27 20 3 21358</p>
+        <button><a class="nav-item" href="{% url 'allYouNeed-home' %}">See Post</a></button>
+        <button><a class="nav-item" href="#">Write Post</a></button>
+    </div>
+    <div>
+      <h4>Le Montparnasse Restaurant</h4>
+      <p>Address: Rue Pierre et Marie Curie, Abidjan, Côte d’Ivoire<br>
+        Service options: Dine-in · Takeout<br>
+        Phone: +225 21343501</p>
+        <button><a class="nav-item" href="{% url 'allYouNeed-home' %}">See Post</a></button>
+        <button><a class="nav-item" href="#">Write Post</a></button>
+    </div>
+
+
+{% endblock content%}
